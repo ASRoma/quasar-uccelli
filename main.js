@@ -17,7 +17,7 @@ $(document).ready(function () {
                 arr.forEach(function (element) {
                     if (element.Famiglia == input.value) {
                         result = true
-                        container.innerHTML += '<li>' + element + '</li>'
+                        container.innerHTML += '<li>' + element["NOME COMUNE"] + '</li>'
                     }
                 });
                 if (!result) {
