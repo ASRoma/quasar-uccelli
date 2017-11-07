@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css"> </head>
+
+<body>
+    <div class="container-fluid titoli">
+        <div class="col-xs-12">
+            <h1>Riserva Naturale Regionale</h1>
+            <h3>Selva del Lamone</h3> </div>
+        <div style="visibility:hidden">
+            <audio autoplay loop>
+                <source src="img/sound.mp3"> </audio>
+        </div>
+    </div>
+    <div class="container-fluid area">
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+            <h2>L'area Protetta</h2>
+            <p class="testo">In uno degli angoli più solitari e remoti del Lazio, quest'area protetta custodisce un bosco aspro e selvaggio, a tratti impenetrabile, formatosi su una "giovane" colata lavica risalente al periodo compreso fra 150.000 e 50.000 anni fa. La Riserva è stata istituita nel 1994 con la legge regionale n. 45 (L.R. 12 settembre 1994, n. 45) e si estende su circa duemila ettari. L'importanza conservazionistica del Lamone è tale che, oltre alla Riserva, insistono su quest'area anche tre aree Natura 2000, precisamente due Siti d'Importanza Comunitaria o SIC (future Zone Speciali di Conservazione o ZSC) ed una Zona di Protezione Speciale o ZPS; queste aree sono frutto rispettivamente della Direttiva Europea 92/43/CE e della Direttiva 2009/147/CE. Il 90% dell'area protetta è occupato da boschi, il restante 10% da aree agricole. I boschi sono per lo più cerrete pure o miste e mostrano a livello floristico un carattere a tratti mesofilo (come nei crateri lavici di collasso e in quasi tutto il settore più orientale della Riserva), a tratti termofilo (come sulle sommità degli accumuli di massi lavici e nel settore occidentale). Nel primo caso il cerro e' affiancato dal carpino nero, dal carpino bianco, dal nocciolo come specie caratteristiche; nel secondo caso dal leccio, dalla roverella, dalla fillirea a foglie larghe. Pressochè ubiquitari sono l'acero campestre, l'acero minore e l'orniello. Le aree agricole sono occupate da prati-pascoli e, subordinatamente, da seminativi, da oliveti e vigneti e da arbusteti e boschi di neoformazione; sia gli arbusteti sia i boschi di neoformazione sono stadi intermedi del processo di successione secondaria innescato dall'abbandono di coltivi e pascoli avvenuto nell'arco degli Anni Sessanta e Settanta del Novecento. Nello stesso periodo lo sfruttamento intenso del bosco per la produzione di carbone, legname e frasche e per il pascolo e' drasticamente diminuito. Oggi l'utilizzo della risorsa legno e' regolamentato dal Piano di Gestione e Assestamento Forestale della Riserva e dal Regolamento Comunale per gli Usi Civici. Il fiume Olpeta segna parte del confine meridionale della Riserva; lungo il suo corso il bosco ripariale di salici, ontani e pioppi forma vere e proprie gallerie, creando con il gioco dell'acqua e delle rocce dei suggestivi giochi di luce molto amati dagli appassionati di fotografia naturalistica. A ridosso della Riserva il fiume Olpeta forma due bellissime cascate: la cascata del Pelicotonno e la cascata di Salabrone. Nella Riserva sono presenti anche alcuni importanti siti archeologici e storici con resti di necropoli, villaggi fortificati di vari periodi (Età del Bronzo, epoca etrusca, Medio Evo), fattorie e strade romane, pievi rurali, capanne di pastori e carbonai ancora usate negli Anni Cinquanta del Novecento. Tra i beni culturali merita particolare rilievo Santa Maria di Sala, un'abbazia cistercense restaurata negli anni 2013 - 2014 per volontà della Riserva grazie a un finanziamento POR-FESR Lazio.</p>
+        </div>
+    </div>
+    <div class="container ajax">
+        <div class="row">
+            <p class="ricerca">Cerca le famiglie di uccelli</p>
+            <div class=".col-md-6 .offset-md-3">
+                <input class="form-control" type="text" id="myinput" name="search" placeholder="Cerca..">
+                <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Cerca</a> </p>
+            </div>
+        </div>
+    </div>
+    <div id="pos" class="container tabUsers">
+        <div class="row">
+            <div class=".col-md-6 .offset-md-3">
+                <ul id="bird-list"> </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.titoli {
+    height: 500px;
+    background-image: url(img/Selva-del-Lamone-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Slabo;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Slabo;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Raleway;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: darkgreen;
+}
+
+.testo {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: black;
+}
+
+.ricerca {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Raleway;
+    color: black;
+}
+
+.lead {
+    text-align: center;
+    margin-top: 20px;
+}
